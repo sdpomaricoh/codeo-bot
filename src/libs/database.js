@@ -4,7 +4,7 @@ var database = {};
 
 database.connect = function(){
 	mongo.connect(
-		'mongodb://localhost:'+process.env.MONGO_PORT+'/'+process.env.DB_NAME,
+		process.env.MONGODB_URI,
 		{ useMongoClient: true },
 		function(err,res) {
 			if (err){

@@ -1,0 +1,8 @@
+{
+  "name": "Codeo bot",
+  "description": "chatbot for facebook messenger based on NodeJS and Express",
+  "repository": "https://github.com/sdpomaricoh/codeo-bot",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku","bot"],
+  "image": "heroku/nodejs"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "codeo-bot",
+  "version": "1.0.0",
+  "description": "chatbot for facebook messenger based on NodeJS and Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sdpomaricoh/codeo-bot.git"
+  },
+  "keywords": [
+    "messenger",
+    "chatbot",
+    "codeo",
+    "nodejs",
+    "api.ai"
+  ],
+  "author": "Sergio Pomárico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdpomaricoh/codeo-bot/issues"
+  },
+  "homepage": "https://github.com/sdpomaricoh/codeo-bot#readme",
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^4.0.0",
+    "express": "~4.15.5",
+    "mongoose": "^4.12.2",
+    "morgan": "~1.9.0",
+    "request": "^2.83.0"
+  }
+}

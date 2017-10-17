@@ -32,7 +32,9 @@ app.use(cookieParser());
 var router = require('./src/routes');
 app.use('/', router);
 
-
+/**
+ * run the app and database connection
+ */
 app.listen(process.env.PORT || 3000, function() {
 	console.log('app running on port: ' + process.env.PORT);
 	database.connect();

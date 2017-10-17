@@ -10,9 +10,19 @@ var router = express.Router();
 var welcomeController = require('../controllers/welcome');
 var webhookController = require('../controllers/webhook');
 
+/**
+ * Welcome routes
+ */
+router.get('/', welcomeController.salute);
 
-router.get('/', welcomeController.test);
-
+/**
+ *  Facebook webhook routes
+ */
 router.get('/webhook', webhookController.challenge);
+router.post('/webhook', webhookController.message);
 
+
+/**
+ * Export route module
+ */
 module.exports = router;
